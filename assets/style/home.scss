@@ -2,63 +2,72 @@
 @import 'node_modules/photoswipe/dist/photoswipe';
 
 .fixedHeader {
-    margin: 0;
+    h1 {
+        margin: 0;
+    }
 
-    div {
-        img {
-            position: fixed;
-            z-index: 3;
+    img {
+        position: fixed;
+        z-index: 3;
 
-            @include mobile {
-                transform: scale(calc(26 / 31));
-            }
+        @include mobile {
+            transform: scale(calc(26 / 31));
         }
+    }
 
+    .center {
+        left: 50%;
+        transform: translateX(-50%);
+
+        @include mobile {
+            transform: translateX(-50%) scale(calc(26 / 31));
+        }
+    }
+
+    .top {
+        top: $home-margin-y-desktop;
+    }
+
+    .bottom {
+        bottom: $home-margin-y-desktop;
+    }
+
+    .left {
+        left: $home-margin-x-desktop;
+    }
+
+    .right {
+        right: $home-margin-x-desktop;
+    }
+
+    @include mobile {
         .top {
-            top: $home-margin-y-desktop;
+            top: $home-margin-y-mobile + $summary-button-height-mobile;
         }
 
         .bottom {
-            bottom: $home-margin-y-desktop;
+            bottom: $home-margin-y-mobile;
         }
 
         .left {
-            left: $home-margin-x-desktop;
+            left: $home-margin-x-mobile;
         }
 
         .right {
-            right: $home-margin-x-desktop;
+            right: $home-margin-x-mobile;
         }
 
-        @include mobile {
-            .top {
-                top: $home-margin-y-mobile + $summary-button-height-mobile;
-            }
-
-            .bottom {
-                bottom: $home-margin-y-mobile;
-            }
-
-            .left {
-                left: $home-margin-x-mobile;
-            }
-
-            .right {
-                right: $home-margin-x-mobile;
-            }
-
-            .top.left {
-                transform-origin: top left;
-            }
-            .bottom.left {
-                transform-origin: bottom left;
-            }
-            .bottom.right {
-                transform-origin: bottom right;
-            }
-            .top.right {
-                transform-origin: top right;
-            }
+        .top.left {
+            transform-origin: top left;
+        }
+        .bottom.left {
+            transform-origin: bottom left;
+        }
+        .bottom.right {
+            transform-origin: bottom right;
+        }
+        .top.right {
+            transform-origin: top right;
         }
     }
 }

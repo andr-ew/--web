@@ -7,17 +7,27 @@
         href="/node_modules/photoswipe/dist/photoswipe.css"
     />
     <header>
-        <h1 class="fixedHeader" aria-label="caught in pointers">
-            <div aria-hidden="true">
-                <img class="top left" src="/images/header_top_left.svg" />
-                <img class="top right" src="/images/header_top_right.svg" />
-                <img class="bottom left" src="/images/header_bottom_left.svg" />
-                <img
-                    class="bottom right"
-                    src="/images/header_bottom_right.svg"
-                />
-            </div>
-        </h1>
+        <div class="fixedHeader">
+            <img
+                class="top center"
+                src="/images/os_logo.svg"
+                alt="the open space logo"
+            />
+            <h1 aria-label="caught in pointers">
+                <div aria-hidden="true">
+                    <img class="top left" src="/images/header_top_left.svg" />
+                    <img class="top right" src="/images/header_top_right.svg" />
+                    <img
+                        class="bottom left"
+                        src="/images/header_bottom_left.svg"
+                    />
+                    <img
+                        class="bottom right"
+                        src="/images/header_bottom_right.svg"
+                    />
+                </div>
+            </h1>
+        </div>
         {{ partial "detailmodal" (
             dict "ctx" .
             "side" "left"
