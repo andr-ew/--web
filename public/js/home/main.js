@@ -5713,6 +5713,7 @@
   document.querySelector("main").addEventListener("click", closeAllModals);
   console.log("\u{1FAD6}\u{1FAD6}\u{1FAD6}\u{1FAD6}\u{1FAD6}\u{1FAD6}\u{1FAD6}\u{1FAD6}\u{1FAD6}\u{1FAD6}\u{1FAD6}");
   document.querySelectorAll(".closeButton").forEach((e) => e.addEventListener("click", closeAllModals));
+  document.querySelectorAll(".detailModal a").forEach((e) => e.addEventListener("click", closeAllModals));
 })();
 /*! Bundled license information:
 

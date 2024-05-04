@@ -70,6 +70,7 @@
 
     summary {
         list-style: none;
+        list-style-type: none;
         cursor: pointer;
 
         position: fixed;
@@ -80,6 +81,13 @@
         @include mobile {
             top: 0;
             height: $summary-button-height-mobile;
+        }
+
+        &::marker {
+            display: none;
+        }
+        &::-webkit-details-marker {
+            display: none;
         }
     }
 
@@ -257,19 +265,26 @@
         position: relative;
 
         z-index: 2;
+
+        width: 100% !important;
+        height: 100svh !important;
     }
 
     .scrollArrow {
         position: absolute;
         margin: 0;
 
-        transform: translateX(-50%);
         left: 50%;
 
-        bottom: calc(100% - 100vh + 13px);
+        // bottom: calc(100% - 100vh + 13px);
+        // bottom: calc(100% - 100svh + 13px);
+
+        top: 100svh;
+        transform: translate(-50%, -100%);
+        padding-bottom: 13px;
 
         @include mobile {
-            transform: scale(calc(12 / 14));
+            transform: translate(-50%, -100%) scale(calc(12 / 14));
             transform-origin: bottom center;
         }
     }

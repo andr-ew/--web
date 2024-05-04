@@ -1,6 +1,10 @@
 @import 'node_modules/scss-reset/_reset';
 @import 'assets/style/_variables';
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 
@@ -67,7 +71,7 @@ p {
 figure {
     * {
         font-size: 13px;
-        margin-bottom: 15px;
+        // margin-bottom: 15px;
     }
 }
 
@@ -97,6 +101,11 @@ table {
             grid-auto-columns: max-content;
             grid-auto-flow: column;
             grid-gap: 30px;
+
+            td:last-child {
+                width: 40px;
+                text-align: right;
+            }
         }
     }
 }

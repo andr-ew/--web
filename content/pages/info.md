@@ -6,7 +6,7 @@ draft: false
 
 ## I read once that the human mind never runs out of storage space -- we forget only what we cannot retrieve.
 
-_“caught in pointers”_ is an exhibition of analog & digital print-based artwork by [Andrew CS](https://andrewcs.life), created in parallel to their [debut album](https://leavingrecords.com/caught-in-pointers) of the same name.
+_“caught in pointers”_ is an exhibition of digital print + analog silkscreen based paintings, 3d-scanned & printed sculptures, and painted laser engravings by [Andrew CS](https://andrewcs.life) — created in parallel to their [debut album](https://leavingrecords.com/caught-in-pointers) of the same name.
 
 _pointers (\*)_ index the world in RAM - we carry them in pockets & phone cases & microphones. throughout our time-paths - unable to collapse the infinity of a moment to megabytes, we form indices of what we cherish. our pointers are the time we can hold in our hands. we turn time on it's belly & peer into into crevices to find what we hold so tightly. but what is lost in this fallacy, & what do we find in its place ?
 

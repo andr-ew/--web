@@ -1,24 +1,44 @@
 @import 'assets/style/_variables';
 
 .artFigure {
+    figcaption * {
+        margin: 0;
+    }
+
     @include desktop {
         display: grid;
-        grid-template-columns: 1fr 720px 1fr;
-        grid-template-rows: min-content;
         gap: 50px;
+
+        &:not(.wide) {
+            grid-template-columns: 1fr 720px 1fr;
+            grid-template-rows: min-content;
+            align-items: center;
+
+            .img-wrapper {
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+            }
+
+            figcaption {
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+            }
+        }
+
+        &.wide {
+            grid-template-columns: 1fr;
+            justify-items: center;
+
+            .img-wrapper {
+                max-width: 1000px;
+            }
+
+            figcaption {
+                text-align: center;
+            }
+        }
+
         margin-bottom: 200px;
-
-        align-items: center;
-
-        .img-wrapper {
-            grid-column: 2 / 3;
-            grid-row: 1 / 2;
-        }
-
-        figcaption {
-            grid-column: 1 / 2;
-            grid-row: 1 / 2;
-        }
     }
     @include mobile {
         margin-bottom: 100px;

@@ -25,14 +25,9 @@ renderer.setPixelRatio(window.devicePixelRatio);
 var isMobile = false;
 
 function resize() {
-    let w, h;
-    if (recording) {
-        w = width;
-        h = height;
-    } else {
-        w = window.innerWidth;
-        h = window.innerHeight;
-    }
+    const rect = renderer.domElement.getBoundingClientRect();
+    const w = rect.width,
+        h = rect.height;
 
     camera.aspect = w / h;
     camera.far = 2000;
