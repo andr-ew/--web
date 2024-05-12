@@ -19,6 +19,6 @@ draft: false
 | [time path 8](#time-path-8)         | 1 of 1   | $100 |
 | [time path 10](#time-path-10)       | 1 of 1   | $100 |
 
-buyer pays shipping – to purchase or for any questions please reach me at [andrewcshike@gmail.com](mailto:andrewcshike@gmail.com) with the name of the piece and your shipping address, I'll provide an estimate for shipping fees. thank you so much in advance. 15% of all sales will go toward gofundme campaigns for ga@z@n's seeking to evacuate from genocide in their home country ([the family of a friend's cousin's arabic teacher](https://www.gofundme.com/f/emergency-evacuation-from-gaza?member=32644273&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=social&utm_source=instagram)), the rest will be used toward healthcare expenses for the year 2024.
+buyer pays shipping – to purchase or for any questions please reach me at [andrewcshike@gmail.com](mailto:andrewcshike@gmail.com) with the name of the piece and your shipping address, I'll provide an estimate for shipping fees. thank you so much in advance. 15% of all sales will go toward grassroots aid in g@z@.
 
 shipping is expected to begin late may – please be kind as certain frames still need repair after years in storage & 5 separate moves <3. I’ll drop off any orders local to chicago.
