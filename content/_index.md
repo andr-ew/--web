@@ -11,9 +11,9 @@ image:
 
 Hi _!_
 
-We’re ampersands — a small studio focused on [visual design](#md-uncleared), [code](#leaving-records), and [illustration](). 
+We’re ampersands — a small studio focused on [visual design](#md-uncleared), [code](#leaving-records), and [illustration](#julius-smack-serenity). 
 
-We like working on [brands](), [websites](), [generative animation](), [music campaigns](), editorial illustrations, or anything we’ve never done before. Our main contributor is [andrew c. shike](https://andrewcs.life), based in chicago, and we love to collaborate.
+We like working on [brands](#ambient-church), [websites](#leaving-records), [generative animation](#leaving-records), [music campaigns](#aisha-vaughan), editorial illustrations, or anything we’ve never done before. Our main contributor is [andrew c. shike](https://andrewcs.life), based in chicago, and we love to collaborate.
 
 Get in touch at [andrewcshike@gmail.com](mailto:andrewcshike@gmail.com)
 
