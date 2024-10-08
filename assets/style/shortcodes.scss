@@ -41,10 +41,10 @@
         }
     }
 
-    // .img-wrapper {
-    //     width: 100%;
-    //     height: 100%;
-    // }
+    .img-wrapper {
+        width: 100%;
+        height: 100%;
+    }
 
     .galleryButtons {
         display: flex;
@@ -52,6 +52,8 @@
         align-items: center;
 
         button {
+            width: 30px;
+
             &.right {
                 img {
                     transform: rotate(180deg);
